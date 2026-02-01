@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    height:60px;
+    background-color:black;
+    color:white;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.nav-logo.border {
+    
+    height:50px;
+    width:100px;
+    
+    margin:5px 2px 5px 1px;
+
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width:100%;
+    
+
+}
+.border{
+    border: 1.5px solid transparent;
+
+}
+.border:hover{
+    border:1.5px solid white;
+}
+/* box2 */
+#add-first{
+    font-size:0.85rem;
+    color:#CCCCCC;
+    margin-left:2px;
+}
+#add-second{
+    font-size:1rem;
+    color:#FFFFFF;
+    margin-left:2px;
+    
+}
+.add-icon{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+}
+.nav-address{
+    padding:4px;
+    margin:9px 2px 9px 1px;
+}
+/* box3 */
+.nav-search{
+    display:flex;
+    flex-direction:row;
+    width:700px;
+    height:40px;
+    justify-content:space-evenly;
+    background-color:blue;
+    text-align:center;
+}
+
+
+.nav-search:click{ 
+    border: 2px solid yellow;
+
+}
+.search-select{
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+    
+
+}
+.search-input{
+    width:100%;
+    border:none;
+    font-size:1rem;
+}
+.search-icon{
+  align-items:center;
+  justify-content:center;
+  width:45px;
+  display:flex;
+  font-size:1.2rem;
+  background-color:rgb(234, 141, 11);
+  color: #0f1111;
+  border-top-right-radius:4px;
+  border-bottom-right-radius:4px;
+
+  
+
+}
+
+/* box4 */
+.nav-second{
+        font-weight: 700;
+    font-size: 12px;
+}
+p1{
+    font-size:0.75rem;
+}
+.navsign-in{
+     margin:3px 2px 5px 1px;
+     padding:4px;
+}
+ 
+/* box6 */
+.cart i {
+    font-size:32px;
+    
+}
+.cart{
+    font-size:0.85rem;
+    font-weight:700;
+}
+
+/* panel */
+.panel{
+    height:40px;
+    background-color:#222f3d;
+    color:white;
+    display:flex;
+    align-items:center;
+    
+}
+.panel i{
+    margin-right:4px;
+}
